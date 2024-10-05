@@ -1,0 +1,77 @@
+[
+  {
+    "username": "user1",
+    "projects": [
+      {
+        "id": 1728108778076,
+        "title": "人工智能背景下的老人健康自动监控系统",
+        "num": 3,
+        "members": [
+          "user1"
+        ],
+        "category": "创业",
+        "subcategory": "科技创业",
+        "startDate": "2024-10-11",
+        "skills": "111111",
+        "content": "11111111111111",
+        "creator": "user1",
+        "status": "进行中"
+      }
+    ],
+    "joinRequests": [],
+    "sentRequests": [
+      {
+        "projectId": 1728108625669,
+        "status": "已通过"
+      }
+    ],
+    "alert": []
+  },
+  {
+    "username": "user2",
+    "projects": [],
+    "joinRequests": [],
+    "sentRequests": [
+      {
+        "projectId": 1728108625669,
+        "status": "未通过"
+      }
+    ],
+    "alert": []
+  },
+  {
+    "username": "user3",
+    "projects": [
+      {
+        "id": 1728108625669,
+        "title": "测试发布creator功能",
+        "num": "5",
+        "members": [
+          "user3"
+        ],
+        "category": "创业",
+        "subcategory": "科技创业",
+        "startDate": "2024-10-10",
+        "skills": "JavaScript",
+        "content": "测试一下有没有添加。更新",
+        "creator": "user3"
+      }
+    ],
+    "joinRequests": [
+      {
+        "projectId": 1728108625669,
+        "status": "已通过",
+        "requester": "user1",
+        "isHandled": true
+      },
+      {
+        "projectId": 1728108625669,
+        "status": "未通过",
+        "requester": "user2",
+        "isHandled": true
+      }
+    ],
+    "sentRequests": [],
+    "alert": []
+  }
+]
