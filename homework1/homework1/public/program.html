@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    border: none;
+}
+body {
+  width: 100%;
+  background-color: #fbeaff;
+}
+#app header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 150px;
+  background-color: cadetblue;
+}
+
+#app .main{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#app .main .content{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color:antiquewhite;
+    border-radius: 30px;
+}
+
+#app .main .content h2{
+    /* background-color: #fff; */
+    margin: 20px 0 10px 45px;
+}
+
+#app .main .content p{
+    width:90%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#app .main .content button{
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+#app .main .slider{
+    width: 25%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: bisque;
+}
+
+</style>
+</head>
+<body>
+    <div id="app">
+        <Header>
+            <h1>项目名称:XXXXXXX</h1>
+            <p>发布者:xxx 发布时间:xxxx-xx-xx</p>
+            <p>技能方向:C语言</p>
+        </Header>
+            <div class="main">
+                <div class="content">
+                    <h2>项目详情:</h2>
+                    <p>内容。。。。</p>
+                    <button>申请加入</button>
+                </div>
+                <div class="slider"></div>
+            </div>
+    </div>
+</body>
+</html>
