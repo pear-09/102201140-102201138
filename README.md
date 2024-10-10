@@ -3,13 +3,13 @@ This is our collaborative project repository.
 Please download the project to your own computer.
 
 
-1.从我们的Github仓库main分支下载我们的网页源代码，进行解压缩。
+1.从我们的Github仓库final分支下载我们的网页源代码，进行解压缩。
 
 2.安装VScode，并且安装Live Server插件。
 
-3.打开frontend文件，点击dist文件夹，点击index.html文件运行在Google浏览器；
+3.打开vscode，并且使用它打开dist文件夹，点击index.html文件运行在Google浏览器；即可运行我们的前端界面，前端完整源代码在frontend文件夹，如果感兴趣的话可以查看；
 
-4.同时通过VScode打开backend文件夹：
+4.同时打开新的一个VScode界面，保持前端界面不变，打开backend文件夹：
 如果你安装了node插件
 找到server.js文件，右键->点击在集成终端中打开 -> 直接在终端输入"node server.js" 即可运行服务器，此时网页可以正常运行和使用；
 
@@ -24,5 +24,5 @@ Windows 系统
 
 macOS 系统
 ①下载 Node.js：访问 Node.js 官网。下载 macOS 安装包（.pkg 文件）。运行安装程序：双击下载的 .pkg 文件，按照安装向导的提示进行安装。
-安装成功之后找到server.js文件，右键->点击在集成终端中打开 -> 直接在终端输入"node server.js" 即可运行服务器，此时网页可以正常运行和使用；
+安装成功之后找到server.js文件，右键->点击在集成终端中打开 -> 直接在终端输入"node server.js" 即可运行服务器（后端），此时网页可以正常运行和使用；
 同时附上我和队友的联系方式，有任何问题可以联系我们：黎曼 2901868597；黄俊瑶 2790599728
