@@ -1,0 +1,177 @@
+[
+  {
+    "username": "user1",
+    "projects": [
+      {
+        "id": 1728489888518,
+        "title": "人工智能创新挑战赛",
+        "num": 4,
+        "members": [
+          "user2"
+        ],
+        "category": "竞赛",
+        "subcategory": "学科技术类",
+        "startDate": "2024-11-15",
+        "skills": "机器学习, 深度学习, 数据分析, 编程",
+        "content": "本次人工智能创新挑战赛旨在鼓励参赛者利用最新的人工智能技术解决实际问题。参赛队伍需在限定时间内提交基于AI的解决方案，评审标准包括创新性、实用性和技术难度。获胜者将获得奖金及与行业专家的交流机会。",
+        "status": "招募中",
+        "creator": "user1"
+      },
+      {
+        "id": 1728489936308,
+        "title": "全栈开发大赛",
+        "num": 8,
+        "members": [
+          "user3"
+        ],
+        "category": "竞赛",
+        "subcategory": "创新创业类",
+        "startDate": "2024-10-21",
+        "skills": "前端开发, 后端开发, 数据库管理, API设计",
+        "content": "全栈开发大赛旨在鼓励参赛者展示其在前后端开发方面的综合能力。参赛者需在48小时内构建一个完整的Web应用，评审将根据功能完整性、代码质量和用户体验进行评判。优秀作品有机会获得实习机会或技术培训课程。",
+        "status": "招募中",
+        "creator": "user1"
+      }
+    ],
+    "joinRequests": [
+      {
+        "projectId": 1728489888518,
+        "status": "已通过",
+        "requester": "user2",
+        "isHandled": true
+      },
+      {
+        "projectId": 1728489936308,
+        "status": "已通过",
+        "requester": "user3",
+        "isHandled": true
+      }
+    ],
+    "sentRequests": [
+      {
+        "projectId": 1728490389013,
+        "status": "已通过"
+      },
+      {
+        "projectId": 1728490206600,
+        "status": "已通过"
+      },
+      {
+        "projectId": 1728490424763,
+        "status": "待审核"
+      }
+    ],
+    "alert": []
+  },
+  {
+    "username": "user2",
+    "projects": [
+      {
+        "id": 1728490146540,
+        "title": "区块链技术应用大赛",
+        "num": 10,
+        "members": [],
+        "category": "竞赛",
+        "subcategory": "服务外包类",
+        "startDate": "2024-11-03",
+        "skills": "企业管理, IT解决方案, 数据分析, 项目管理",
+        "content": "企业数字化转型大赛旨在帮助企业提升数字化水平。参赛团队需分析实际企业案例，提出可行的数字化转型方案。评审标准包括方案的创新性、可实施性和经济效益。优胜团队将获得顾问支持和推广机会。",
+        "status": "招募中",
+        "creator": "user2"
+      },
+      {
+        "id": 1728490206600,
+        "title": "物联网智能家居设计大赛",
+        "num": 3,
+        "members": [
+          "user1",
+          "user3"
+        ],
+        "category": "竞赛",
+        "subcategory": "学科技术类",
+        "startDate": "2024-12-13",
+        "skills": "物联网, 硬件设计, 软件开发, 用户体验",
+        "content": "本次智能家居设计大赛旨在激励参赛者设计创新的智能家居解决方案。参赛队伍需展示其在物联网硬件和软件集成方面的能力，评审将关注创意、技术实现及用户体验。获胜者将获得行业专家的指导和技术支持。",
+        "status": "招募中",
+        "creator": "user2"
+      }
+    ],
+    "joinRequests": [
+      {
+        "projectId": 1728490206600,
+        "status": "已通过",
+        "requester": "user3",
+        "isHandled": true
+      },
+      {
+        "projectId": 1728490206600,
+        "status": "已通过",
+        "requester": "user1",
+        "isHandled": true
+      }
+    ],
+    "sentRequests": [
+      {
+        "projectId": 1728489888518,
+        "status": "已通过"
+      }
+    ],
+    "alert": []
+  },
+  {
+    "username": "user3",
+    "projects": [
+      {
+        "id": 1728490389013,
+        "title": "环保智能垃圾分类系统",
+        "num": 3,
+        "members": [],
+        "category": "创业",
+        "subcategory": "科技创业",
+        "startDate": "2025-02-07",
+        "skills": "物联网, 数据分析, 软件开发, 用户体验设计",
+        "content": "本项目旨在开发一个智能垃圾分类系统，通过传感器识别垃圾类型并自动分类，帮助城市管理者提高垃圾回收率。系统配备智能垃圾桶，使用图像识别和机器学习算法，能够实时监测垃圾投放情况，并通过手机应用提供垃圾分类知识和用户反馈。此系统将推动城市垃圾分类的普及，减少垃圾对环境的负担，同时鼓励市民参与环保活动。",
+        "status": "招募中",
+        "creator": "user3"
+      },
+      {
+        "id": 1728490424763,
+        "title": "基于深度学习的医学影像分析",
+        "num": 3,
+        "members": [],
+        "category": "学术科研",
+        "subcategory": "医学科学",
+        "startDate": "2024-10-24",
+        "skills": "深度学习, 医学影像处理, 数据分析, 软件开发",
+        "content": "本研究项目旨在开发基于深度学习的医学影像分析算法，提高影像诊断的准确性和效率。我们将利用卷积神经网络（CNN）对CT和MRI影像进行处理，自动识别潜在病变区域。项目将收集大量病例数据，通过模型训练和验证，不断提升算法的准确率和泛化能力。此外，研究团队还将与医院合作，进行临床试验，确保算法在实际应用中的有效性和安全性。",
+        "status": "招募中",
+        "creator": "user3"
+      }
+    ],
+    "joinRequests": [
+      {
+        "projectId": 1728490389013,
+        "status": "已通过",
+        "requester": "user1",
+        "isHandled": true
+      },
+      {
+        "projectId": 1728490424763,
+        "status": "待审核",
+        "requester": "user1",
+        "isHandled": false
+      }
+    ],
+    "sentRequests": [
+      {
+        "projectId": 1728490206600,
+        "status": "已通过"
+      },
+      {
+        "projectId": 1728489936308,
+        "status": "已通过"
+      }
+    ],
+    "alert": []
+  }
+]
